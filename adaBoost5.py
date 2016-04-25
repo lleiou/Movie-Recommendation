@@ -146,7 +146,8 @@ y = np.array([1,1,-1,-1,1,1,-1,-1,-1,1])
 
 
 #the result should be 100% percent correct, but this one has only 80% accuracy, the possible reason that I can think of
-#is the way that we 
+#is the way that we set the duplicity as NA...which is the only part that I can think of can generate error.
+#maybe we should find some time to do it again.
 
 #check the number of 1 in y:
 sum(y == 1)
